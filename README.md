@@ -5,8 +5,6 @@ The websites are blocked for a fixed time interval, which is currently 7 PM to 5
 Intentionally, there is is no option to configure the extension in chrome, to avoid giving an easy way of working aroudn the extension.
 Removing the extension works obvously.
 
-**Add a new website**
-To add any new website, add entry in rules.json
+**Add a new website** add entry in rules.json
 
-**Change the time**
-Change time mentioned in rules.json
+**Change the time** in rules.json
