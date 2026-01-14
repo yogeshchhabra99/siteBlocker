@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "instagram.com",
+      "resourceTypes": ["main_frame"]
+    },
+    "timeRange": {
+      "startTime": "19:00",
+      "endTime": "17:00"
+    }
+  },
+  {
+    "id": 2,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "reddit.com",
+      "resourceTypes": ["main_frame"]
+    },
+    "timeRange": {
+      "startTime": "19:00",
+      "endTime": "17:00"
+    }
+  },
+  {
+    "id": 3,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "primevideo.com",
+      "resourceTypes": ["main_frame"]
+    },
+    "timeRange": {
+      "startTime": "19:00",
+      "endTime": "17:00"
+    }
+  },
+  {
+    "id": 4,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "extensionPath": "/block.html"
+      }
+    },
+    "condition": {
+      "urlFilter": "youtube.com",
+      "resourceTypes": ["main_frame"]
+    },
+    "timeRange": {
+      "startTime": "19:00",
+      "endTime": "17:00"
+    }
+  }
+]

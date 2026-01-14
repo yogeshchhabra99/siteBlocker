@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Site Blocker",
+  "version": "1.0",
+  "description": "Blocks selected websites locally",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": ["<all_urls>"],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "block_rules",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
